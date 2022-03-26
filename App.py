@@ -10,5 +10,6 @@ del df["Drawf Star Name"]
 del df["Dist"]
 del df["Weight"]
 del df["Rad"]
+del df['Unnamed']
 
 df.to_csv('stars.csv')
